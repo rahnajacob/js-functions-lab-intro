@@ -235,3 +235,16 @@ function createUsername(firstName, lastName) {
    return `${fName}${lName}${fullName.length}`
    }
 console.log('Exercise 11 Result:', createUsername("Samantha", "Green"));
+
+/*
+Exercise 12: numArgs()
+
+Challenge yourself with numArgs. 
+This function should return the count of arguments passed to it when called.
+
+Complete the exercise in the space below:
+*/
+function numArgs(a, b, c, d) {
+        return arguments.length; 
+    }
+console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
